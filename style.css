@@ -1,0 +1,125 @@
+
+
+body {
+  margin : 0px;
+  box-sizing : border-box;
+  padding   : 0px;
+  font-family: 'Karla', sans-serif;
+  font-size : 16px;
+}
+.mainContainer {
+  background : #F0F0F0;
+  padding : 5px;
+  
+  
+  
+}
+
+.cardContainer {
+  margin : 170px;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  
+  
+ 
+}
+
+.topContainer {
+  background : #FFFFFF;
+  padding : 10px;
+  padding-left : 40px;
+  padding-bottom : 30px;
+}
+
+.topContainer > ul {
+  list-style-type : none;
+  margin-left : -40px;
+  color : #C5C9D2;
+}
+
+.topContainer > h2 {
+  color : #329A99;
+  text-shadow : 1px 1px 4px #00000;
+}
+
+.topContainer > h4 {
+  color : hsl(71, 73%, 54%);
+  //text-shadow : 1px 1px 4px #636361;
+}
+
+.bottomContainer {
+  display : flex;
+  flex-direction : row;
+  position : relative;
+  
+}
+
+.leftBottomContainer {
+  width : 50%;
+  background : #2BB3B1;
+  padding-bottom : 50px;
+  font-size : 0.9rem;
+  
+   
+}
+
+#firstLine, #thirdLine {
+  font-weight : 400;
+}
+
+#firstLine {
+  margin-top : 40px;
+}
+
+#secondLine {
+  padding-top : 0px;
+  font-size: 1.6rem;
+  font-weight : 700;
+  position : relative;
+}
+
+span {
+  font-weight : 400;
+  font-size : 1.0rem;
+  color : #C5C9D2;
+  position : absolute;
+  top : 0.3em;
+  left : 80px;
+}
+
+
+.button {
+  display : block;
+  background : #BFDF32;
+  padding : 6px 3px 6px 3px; 
+  width : 85%;
+  height : 15%;
+  border : none;
+  border-radius : 5px 5px 5px 5px;
+  text-align : center;
+  line-height : 2rem;
+}
+
+
+.leftBottomContainer,  .rightBottomContainer {
+  padding-left : 30px;
+  color : #ffff;
+}
+
+.rightBottomContainer {
+  background : #4ABEBD;
+  width : 50%;
+  font-size : 0.9rem;
+  padding-top : 24px
+  
+}
+
+.rightBottomContainer > ul {
+  list-style-type :  none;
+  line-height : 1.5;
+  margin-left : -40px;
+  color : #C5C9D2;
+  
+}
+
+
+
